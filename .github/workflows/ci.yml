@@ -45,8 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: "build/mkdocs/site"
+          path: "site"
 
       - name: Deploy to GitHub Pages
         id: deployment
